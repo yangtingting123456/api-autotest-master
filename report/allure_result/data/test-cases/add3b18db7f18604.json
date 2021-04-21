@@ -1,0 +1,78 @@
+{
+  "uid" : "add3b18db7f18604",
+  "name" : "scripts.news.shoutu.test_case_team_contribution.TestCase#test_case",
+  "fullName" : "scripts.news.shoutu.test_case_team_contribution.TestCase#test_case",
+  "historyId" : "88da0535567490b530959797f5ec9953",
+  "time" : {
+    "start" : 1618556112729,
+    "stop" : 1618556112823,
+    "duration" : 94
+  },
+  "description" : "<b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/login<hr /><b style='color:red'>response预期值:</b>{\"message\": \"成功\",\"code\": 200}<hr /><b style='color:red'>实际执行结果:</b>{'code': 200, 'message': '成功', 'data': {'isBind': True, 'token': 'YTM4Njk5OWQtOTI2Zi00ZGIzLTkxNzAtMjNlZGE5OWVjZGY3'}}<hr /><b style='color:red'>code预期值:</b>200<hr /><b style='color:red'>实际执行结果:</b>200<hr />",
+  "descriptionHtml" : "<p><b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/login<hr /><b style='color:red'>response预期值:</b>{&quot;message&quot;: &quot;成功&quot;,&quot;code&quot;: 200}<hr /><b style='color:red'>实际执行结果:</b>{'code': 200, 'message': '成功', 'data': {'isBind': True, 'token': 'YTM4Njk5OWQtOTI2Zi00ZGIzLTkxNzAtMjNlZGE5OWVjZGY3'}}<hr /><b style='color:red'>code预期值:</b>200<hr /><b style='color:red'>实际执行结果:</b>200<hr /></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/login<hr /><b style='color:red'>response预期值:</b>{\"message\": \"成功\",\"code\": 200}<hr /><b style='color:red'>实际执行结果:</b>{'code': 200, 'message': '成功', 'data': {'isBind': True, 'token': 'YTM4Njk5OWQtOTI2Zi00ZGIzLTkxNzAtMjNlZGE5OWVjZGY3'}}<hr /><b style='color:red'>code预期值:</b>200<hr /><b style='color:red'>实际执行结果:</b>200<hr />",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "474dc447bbbaa589",
+      "name" : "log",
+      "source" : "474dc447bbbaa589.txt",
+      "type" : "text/plain",
+      "size" : 754
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.news.shoutu"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_team_contribution"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "tiancha"
+  }, {
+    "name" : "thread",
+    "value" : "22076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.news.shoutu.test_case_team_contribution"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_num': 'lcd_001', 'title ': '正向用例：登陆token获取', 'url': 'http://sea-service.test.lcd.cool/v1/login', 'method': 'post', 'params': '', 'data': '', 'json': '{\\n  \"captcha\": \"1234\",\\n  \"phone\": \"13456335395\",\\n  \"type\": 2\\n}', 'cookies': '', 'headers': '{\"platformCode\":\"8000\"}', 'except': '{\"message\": \"成功\",\"code\": 200}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "add3b18db7f18604.json",
+  "parameterValues" : [ "{'case_num': 'lcd_001', 'title ': '正向用例：登陆token获取', 'url': 'http://sea-service.test.lcd.cool/v1/login', 'method': 'post', 'params': '', 'data': '', 'json': '{\\n  \"captcha\": \"1234\",\\n  \"phone\": \"13456335395\",\\n  \"type\": 2\\n}', 'cookies': '', 'headers': '{\"platformCode\":\"8000\"}', 'except': '{\"message\": \"成功\",\"code\": 200}'}" ]
+}

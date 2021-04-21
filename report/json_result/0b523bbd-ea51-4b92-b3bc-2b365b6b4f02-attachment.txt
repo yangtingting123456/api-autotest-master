@@ -1,0 +1,3 @@
+INFO     接口测试:test_case_articles_id.py:22 正在进行断言...
+INFO     接口测试:RequestsHandler.py:42 正在向http://sea-service.test.lcd.cool/v1/articles发送请求,{'case_num': 'lcd_015', 'title ': '关键参数缺失：全部', 'url': 'http://sea-service.test.lcd.cool/v1/articles', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '', 'except': '{"message": "请求头缺少platformCode参数", "code": 403}'}
+INFO     接口测试:test_case_articles_id.py:33 完成断言,{'message': '请求头缺少platformCode参数', 'code': 403}-{'message': '请求头缺少platformCode参数', 'code': 403}

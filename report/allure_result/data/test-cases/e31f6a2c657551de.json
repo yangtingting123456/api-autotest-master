@@ -1,0 +1,78 @@
+{
+  "uid" : "e31f6a2c657551de",
+  "name" : "scripts.news.shoutu.test_case_articles.TestCase#test_case",
+  "fullName" : "scripts.news.shoutu.test_case_articles.TestCase#test_case",
+  "historyId" : "7627cca3ea3c0feedc59c5e637a2f3b4",
+  "time" : {
+    "start" : 1618556104781,
+    "stop" : 1618556104891,
+    "duration" : 110
+  },
+  "description" : "<b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/articles<hr /><b style='color:red'>response预期值:</b>{\n    \"code\": 200,\n    \"message\": \"成功\",\n    \"data\": {\n        \"list\": []\n    }\n}<hr /><b style='color:red'>实际执行结果:</b>{'code': 200, 'message': '成功', 'data': {'total': 0, 'pageSize': 10, 'pageNum': 1, 'list': [], 'totalPage': 1}}<hr /><b style='color:red'>code预期值:</b>200<hr /><b style='color:red'>实际执行结果:</b>200<hr />",
+  "descriptionHtml" : "<p><b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/articles<hr /><b style='color:red'>response预期值:</b>{\n&quot;code&quot;: 200,\n&quot;message&quot;: &quot;成功&quot;,\n&quot;data&quot;: {\n&quot;list&quot;: []\n}\n}<hr /><b style='color:red'>实际执行结果:</b>{'code': 200, 'message': '成功', 'data': {'total': 0, 'pageSize': 10, 'pageNum': 1, 'list': [], 'totalPage': 1}}<hr /><b style='color:red'>code预期值:</b>200<hr /><b style='color:red'>实际执行结果:</b>200<hr /></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/articles<hr /><b style='color:red'>response预期值:</b>{\n    \"code\": 200,\n    \"message\": \"成功\",\n    \"data\": {\n        \"list\": []\n    }\n}<hr /><b style='color:red'>实际执行结果:</b>{'code': 200, 'message': '成功', 'data': {'total': 0, 'pageSize': 10, 'pageNum': 1, 'list': [], 'totalPage': 1}}<hr /><b style='color:red'>code预期值:</b>200<hr /><b style='color:red'>实际执行结果:</b>200<hr />",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c5dc7f2d0210f91b",
+      "name" : "log",
+      "source" : "c5dc7f2d0210f91b.txt",
+      "type" : "text/plain",
+      "size" : 848
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.news.shoutu"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_articles"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "tiancha"
+  }, {
+    "name" : "thread",
+    "value" : "22076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.news.shoutu.test_case_articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_num': 'lcd_027', 'title ': '关键字缺失：size', 'url': 'http://sea-service.test.lcd.cool/v1/articles', 'method': 'get', 'params': '{\"page\":\"1\",\"isToday\":\"1\",\"search\":\"1\",\"categoryId\":\"2\"}', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"8000\"}', 'except': '{\\n    \"code\": 200,\\n    \"message\": \"成功\",\\n    \"data\": {\\n        \"list\": []\\n    }\\n}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e31f6a2c657551de.json",
+  "parameterValues" : [ "{'case_num': 'lcd_027', 'title ': '关键字缺失：size', 'url': 'http://sea-service.test.lcd.cool/v1/articles', 'method': 'get', 'params': '{\"page\":\"1\",\"isToday\":\"1\",\"search\":\"1\",\"categoryId\":\"2\"}', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"8000\"}', 'except': '{\\n    \"code\": 200,\\n    \"message\": \"成功\",\\n    \"data\": {\\n        \"list\": []\\n    }\\n}'}" ]
+}

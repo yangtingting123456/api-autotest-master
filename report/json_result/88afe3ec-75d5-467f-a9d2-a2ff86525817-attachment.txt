@@ -1,0 +1,3 @@
+INFO     接口测试:test_case_articles_collect.py:22 正在进行断言...
+INFO     接口测试:RequestsHandler.py:42 正在向http://sea-service.test.lcd.cool/v1/articles/collect发送请求,{'case_num': 'lcd_006', 'title ': '关键参数为空：articleId', 'url': 'http://sea-service.test.lcd.cool/v1/articles/collect', 'method': 'post', 'params': '', 'data': '', 'json': '{"type":"1"}', 'cookies': '', 'headers': '{"Authorization":"${lcd_001>response_json>data.token}$","platformCode":"8000"}', 'except': '{"message": "请求方法不支持", "code": 405}'}
+INFO     接口测试:test_case_articles_collect.py:33 完成断言,{'message': '请求方法不支持', 'code': 405}-{'message': '请求方法不支持', 'code': 405}

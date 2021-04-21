@@ -1,0 +1,121 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 403 == 400\n  +403\n  -400",
+      "children" : [ {
+        "name" : "scripts.news.shoutu.test_case_team_contribution.TestCase#test_case",
+        "uid" : "3dd0b673b5d30cd8",
+        "parentUid" : "dedf9f2daa2fabecc6d045175a541977",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618556113494,
+          "stop" : 1618556113640,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'lcd_008', 'title ': '等价类测试：异常平台编号', 'url': 'http://sea-service.test.lcd.cool/v1/team/contribution', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"d223d12333\"}', 'except': '{\"message\": \"平台信息异常或不存在\", \"code\": 400}'}" ]
+      }, {
+        "name" : "scripts.news.shoutu.test_case_team_grand_pupilcontribution.TestCase#test_case",
+        "uid" : "5eb89d5817bee029",
+        "parentUid" : "dedf9f2daa2fabecc6d045175a541977",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618556115444,
+          "stop" : 1618556115637,
+          "duration" : 193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'lcd_008', 'title ': '等价类测试：异常平台编号', 'url': 'http://sea-service.test.lcd.cool/v1/team/grand_pupil/contribution', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"d223d12333\"}', 'except': '{\"message\": \"错误或不存在的平台编号\",\"code\": 400}'}" ]
+      }, {
+        "name" : "scripts.news.shoutu.test_case_team_list.TestCase#test_case",
+        "uid" : "5e5a7a4c29fe2490",
+        "parentUid" : "dedf9f2daa2fabecc6d045175a541977",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618556117573,
+          "stop" : 1618556117690,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'lcd_008', 'title ': '等价类测试：异常平台编号', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"d22377772333\"}', 'except': '{\"message\": \"错误或不存在的平台编号\",\"code\": 400}'}" ]
+      }, {
+        "name" : "scripts.news.shoutu.test_case_team_pupil_list.TestCase#test_case",
+        "uid" : "212c1b4638db551f",
+        "parentUid" : "dedf9f2daa2fabecc6d045175a541977",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618556120120,
+          "stop" : 1618556120245,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'lcd_018', 'title ': '等价类测试：异常平台编号', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/list', 'method': 'get', 'params': '{\"pupilId\":33,\"type\":\"cc\",\"phone\":13100280714,\"page\":2,\"size\":30}', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"123123123123\"}', 'except': '{\"message\": \"平台编号不存在或被封禁\",\"code\": 400}'}" ]
+      }, {
+        "name" : "scripts.news.shoutu.test_case_team_pupilcontribution.TestCase#test_case",
+        "uid" : "a2aab3b45ffa78aa",
+        "parentUid" : "dedf9f2daa2fabecc6d045175a541977",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618556122467,
+          "stop" : 1618556122582,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'lcd_008', 'title ': '等价类测试：异常平台编号', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"d22377772333\"}', 'except': '{\"message\": \"错误或不存在的平台编号\",\"code\": 400}'}" ]
+      }, {
+        "name" : "scripts.news.shoutu.test_case_team_share.TestCase#test_case",
+        "uid" : "3c325ed3fabe4df5",
+        "parentUid" : "dedf9f2daa2fabecc6d045175a541977",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618556123597,
+          "stop" : 1618556123697,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'lcd_008', 'title ': '等价类测试：异常平台编号', 'url': 'http://sea-service.test.lcd.cool/v1/team/share', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"d223d12333\"}', 'except': '{\"message\": \"错误或不存在的平台编号\",\"code\": 400}'}" ]
+      } ],
+      "uid" : "dedf9f2daa2fabecc6d045175a541977"
+    }, {
+      "name" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "children" : [ {
+        "name" : "scripts.news.shoutu.test_case_team_pupil_list.TestCase#test_case",
+        "uid" : "fb257992aff6712b",
+        "parentUid" : "93cb33d5d22503c821557334b925b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618556118837,
+          "stop" : 1618556118968,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'lcd_008', 'title ': '关键参数为空：page', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/list', 'method': 'get', 'params': '{\"pupilId\":33,\"type\":\"cc\",\"phone\":13100280714,\"page\":\"\",\"size\":30}', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"d223d12333\"}', 'except': '{\"code\": 200, \"message\": \"成功\", \"data\": {\"total\": 0, \"pageSize\": 30, \"pageNum\": 2, \"list\": [], \"totalPage\": 1}}'}" ]
+      }, {
+        "name" : "scripts.news.shoutu.test_case_team_pupil_list.TestCase#test_case",
+        "uid" : "e55c1bd2b67c794",
+        "parentUid" : "93cb33d5d22503c821557334b925b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618556118983,
+          "stop" : 1618556119123,
+          "duration" : 140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'lcd_009', 'title ': '关键参数为空：size', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/list', 'method': 'get', 'params': '{\"pupilId\":33,\"type\":\"cc\",\"phone\":13100280714,\"page\":2,\"size\":\"\"}', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"8000\"}', 'except': '{\"code\": 200, \"message\": \"成功\", \"data\": {\"total\": 0, \"pageSize\": 30, \"pageNum\": 2, \"list\": [], \"totalPage\": 1}}'}" ]
+      } ],
+      "uid" : "93cb33d5d22503c821557334b925b7f2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "feaf3d9e0a1fb6ac",
+  "name" : "scripts.news.shoutu.test_case_team_pupil_list.TestCase#test_case",
+  "fullName" : "scripts.news.shoutu.test_case_team_pupil_list.TestCase#test_case",
+  "historyId" : "b0fa5661e5ea221dd5bb6e0f9738d33d",
+  "time" : {
+    "start" : 1618556120262,
+    "stop" : 1618556120360,
+    "duration" : 98
+  },
+  "description" : "<b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/team/pupil/list<hr /><b style='color:red'>response预期值:</b>{\"message\": \"请登录\",\"code\": 403}<hr /><b style='color:red'>实际执行结果:</b>{'message': '请登录', 'code': 403}<hr /><b style='color:red'>code预期值:</b>403<hr /><b style='color:red'>实际执行结果:</b>403<hr />",
+  "descriptionHtml" : "<p><b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/team/pupil/list<hr /><b style='color:red'>response预期值:</b>{&quot;message&quot;: &quot;请登录&quot;,&quot;code&quot;: 403}<hr /><b style='color:red'>实际执行结果:</b>{'message': '请登录', 'code': 403}<hr /><b style='color:red'>code预期值:</b>403<hr /><b style='color:red'>实际执行结果:</b>403<hr /></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/team/pupil/list<hr /><b style='color:red'>response预期值:</b>{\"message\": \"请登录\",\"code\": 403}<hr /><b style='color:red'>实际执行结果:</b>{'message': '请登录', 'code': 403}<hr /><b style='color:red'>code预期值:</b>403<hr /><b style='color:red'>实际执行结果:</b>403<hr />",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c1c8d906761b045f",
+      "name" : "log",
+      "source" : "c1c8d906761b045f.txt",
+      "type" : "text/plain",
+      "size" : 749
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.news.shoutu"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_team_pupil_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "tiancha"
+  }, {
+    "name" : "thread",
+    "value" : "22076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.news.shoutu.test_case_team_pupil_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_num': 'lcd_019', 'title ': '等价类测试：异常pupilId', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/list', 'method': 'get', 'params': '{\"pupilId\":-999999,\"type\":\"cc\",\"phone\":13100280714,\"page\":2,\"size\":30}', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"8000\"}', 'except': '{\"message\": \"请登录\",\"code\": 403}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "feaf3d9e0a1fb6ac.json",
+  "parameterValues" : [ "{'case_num': 'lcd_019', 'title ': '等价类测试：异常pupilId', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/list', 'method': 'get', 'params': '{\"pupilId\":-999999,\"type\":\"cc\",\"phone\":13100280714,\"page\":2,\"size\":30}', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"8000\"}', 'except': '{\"message\": \"请登录\",\"code\": 403}'}" ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "f29c8fa5a9f7f729",
+  "name" : "scripts.news.shoutu.test_case_categories.TestCase#test_case",
+  "fullName" : "scripts.news.shoutu.test_case_categories.TestCase#test_case",
+  "historyId" : "a4aa98f1e71ed249ce0d24998950dbfd",
+  "time" : {
+    "start" : 1618556110914,
+    "stop" : 1618556111011,
+    "duration" : 97
+  },
+  "description" : "<b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/articles/categories<hr /><b style='color:red'>response预期值:</b>{\"message\":\"请求头缺少platformCode参数\",\"code\":403}<hr /><b style='color:red'>实际执行结果:</b>{'message': '请求头缺少platformCode参数', 'code': 403}<hr /><b style='color:red'>code预期值:</b>403<hr /><b style='color:red'>实际执行结果:</b>403<hr />",
+  "descriptionHtml" : "<p><b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/articles/categories<hr /><b style='color:red'>response预期值:</b>{&quot;message&quot;:&quot;请求头缺少platformCode参数&quot;,&quot;code&quot;:403}<hr /><b style='color:red'>实际执行结果:</b>{'message': '请求头缺少platformCode参数', 'code': 403}<hr /><b style='color:red'>code预期值:</b>403<hr /><b style='color:red'>实际执行结果:</b>403<hr /></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<b style='color:red'>请求的url:</b>http://sea-service.test.lcd.cool/v1/articles/categories<hr /><b style='color:red'>response预期值:</b>{\"message\":\"请求头缺少platformCode参数\",\"code\":403}<hr /><b style='color:red'>实际执行结果:</b>{'message': '请求头缺少platformCode参数', 'code': 403}<hr /><b style='color:red'>code预期值:</b>403<hr /><b style='color:red'>实际执行结果:</b>403<hr />",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9800f6786344526a",
+      "name" : "log",
+      "source" : "9800f6786344526a.txt",
+      "type" : "text/plain",
+      "size" : 745
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.news.shoutu"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_categories"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "tiancha"
+  }, {
+    "name" : "thread",
+    "value" : "22076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.news.shoutu.test_case_categories"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_num': 'lcd_004', 'title ': '关键参数为空：platformCode', 'url': 'http://sea-service.test.lcd.cool/v1/articles/categories', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"\"}', 'except': '{\"message\":\"请求头缺少platformCode参数\",\"code\":403}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f29c8fa5a9f7f729.json",
+  "parameterValues" : [ "{'case_num': 'lcd_004', 'title ': '关键参数为空：platformCode', 'url': 'http://sea-service.test.lcd.cool/v1/articles/categories', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${lcd_001>response_json>data.token}$\",\"platformCode\":\"\"}', 'except': '{\"message\":\"请求头缺少platformCode参数\",\"code\":403}'}" ]
+}

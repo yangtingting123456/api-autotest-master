@@ -1,0 +1,3 @@
+INFO     接口测试:test_case_articles.py:22 正在进行断言...
+INFO     接口测试:RequestsHandler.py:42 正在向http://sea-service.test.lcd.cool/v1/articles发送请求,{'case_num': 'lcd_028', 'title ': '关键字缺失：isToday', 'url': 'http://sea-service.test.lcd.cool/v1/articles', 'method': 'get', 'params': '{"page":"1","size":"2","search":"1","categoryId":"2"}', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"${lcd_001>response_json>data.token}$","platformCode":"8000"}', 'except': '{\n    "code": 200,\n    "message": "成功",\n    "data": {\n        "list": []\n    }\n}'}
+INFO     接口测试:test_case_articles.py:33 完成断言,{'code': 200, 'message': '成功', 'data': {'list': []}}-{'code': 200, 'message': '成功', 'data': {'total': 0, 'pageSize': 2, 'pageNum': 1, 'list': [], 'totalPage': 1}}
