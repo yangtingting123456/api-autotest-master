@@ -1,0 +1,32 @@
+2021-04-22 10:39:17,060 接口测试 INFO 正在生成测试报告......
+2021-04-22 10:39:17,376 接口测试 INFO 生成测试报告成功......
+2021-04-22 10:39:17,377 接口测试 INFO 正在打包测试报告......
+2021-04-22 10:39:22,264 接口测试 INFO 打包测试报告完成......
+2021-04-22 10:56:08,039 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 10:58:29,891 接口测试 INFO aaaa
+2021-04-22 10:58:29,891 接口测试 WARNING aaaa
+2021-04-22 10:58:29,891 接口测试 ERROR bbbbbbb
+2021-04-22 11:20:33,149 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 11:20:33,149 接口测试 INFO 正在向http://sea-service.test.lcd.cool/v1/login发送请求,{'case_num': 'lcd_001', 'title ': '正向用例：登陆token获取', 'url': 'http://sea-service.test.lcd.cool/v1/login', 'method': 'post', 'params': '', 'data': '', 'json': '{\n  "captcha": "1234",\n  "phone": "13456335395",\n  "type": 2\n}', 'cookies': '', 'headers': '{"platformCode":"8000"}', 'except': '{"message": "成功","code": 200}'}
+2021-04-22 11:20:33,266 接口测试 INFO 正在向http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list发送请求,{'case_num': 'lcd_002', 'title ': '正向用例：正常请求', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"${lcd_001>response_json>data.token}$","platformCode":"8000"}', 'except': '{"code": 200, "message": "成功", "data": {"list": []}}'}
+2021-04-22 11:20:33,393 接口测试 INFO 正在向http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list发送请求,{'case_num': 'lcd_003', 'title ': '关键参数为空：Authorization', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"","platformCode":"8000"}', 'except': '{"message": "请登录","code": 403}'}
+2021-04-22 11:20:33,489 接口测试 INFO 正在向http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list发送请求,{'case_num': 'lcd_004', 'title ': '关键参数为空：platformCode', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"${lcd_001>response_json>data.token}$","platformCode":""}', 'except': '{"message":"请求头缺少platformCode参数","code":403}'}
+2021-04-22 11:20:33,588 接口测试 INFO 正在向http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list发送请求,{'case_num': 'lcd_005', 'title ': '等价类测试：正确令牌', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"${lcd_001>response_json>data.token}$","platformCode":"8000"}', 'except': '{"code": 200, "message": "成功", "data": {"list": []}}'}
+2021-04-22 11:20:33,724 接口测试 INFO 正在向http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list发送请求,{'case_num': 'lcd_006', 'title ': '等价类测试：正确平台编号', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"${lcd_001>response_json>data.token}$","platformCode":"8000"}', 'except': '{"code": 200, "message": "成功", "data": {"list": []}}'}
+2021-04-22 11:20:33,853 接口测试 INFO 正在向http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list发送请求,{'case_num': 'lcd_007', 'title ': '等价类测试：异常令牌', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"3312","platformCode":"8000"}', 'except': '{"message": "请登录","code": 403}'}
+2021-04-22 11:20:33,952 接口测试 INFO 正在向http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list发送请求,{'case_num': 'lcd_008', 'title ': '等价类测试：异常平台编号', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"${lcd_001>response_json>data.token}$","platformCode":"d22377772333"}', 'except': '{"message": "错误或不存在的平台编号","code": 400}'}
+2021-04-22 11:20:34,081 接口测试 INFO 正在向http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list发送请求,{'case_num': 'lcd_009', 'title ': '关键参数缺失：Authorization', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{"platformCode":"8000"}', 'except': '{"message": "请登录","code": 403}'}
+2021-04-22 11:20:34,185 接口测试 INFO 正在向http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list发送请求,{'case_num': 'lcd_010', 'title ': '关键参数缺失：platformCode', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution/list', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"${lcd_001>response_json>data.token}$"}', 'except': '{"message":"请求头缺少platformCode参数","code":403}'}
+2021-04-22 11:26:25,526 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 11:27:23,410 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 11:27:23,517 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 11:27:23,611 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 11:27:23,669 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 11:27:24,038 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 11:27:24,123 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 11:27:24,204 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 11:27:24,262 接口测试 INFO 读取Excel成功,数据已返回
+2021-04-22 11:27:24,347 接口测试 INFO 正在生成测试报告......
+2021-04-22 11:27:24,370 接口测试 INFO 生成测试报告成功......
+2021-04-22 11:27:24,370 接口测试 INFO 正在打包测试报告......
+2021-04-22 11:27:24,713 接口测试 INFO 打包测试报告完成......

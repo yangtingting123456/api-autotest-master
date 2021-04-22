@@ -1,3 +1,0 @@
-INFO     接口测试:test_case_articles.py:22 正在进行断言...
-INFO     接口测试:RequestsHandler.py:42 正在向http://sea-service.test.lcd.cool/v1/login发送请求,{'case_num': 'lcd_001', 'title ': '正向用例：登陆token获取', 'url': 'http://sea-service.test.lcd.cool/v1/login', 'method': 'post', 'params': '', 'data': '', 'json': '{\n  "captcha": "1234",\n  "phone": "13456335395",\n  "type": 2\n}', 'cookies': '', 'headers': '{"platformCode":"8000"}', 'except': '{"message": "成功","code": 200}'}
-INFO     接口测试:test_case_articles.py:33 完成断言,{'message': '成功', 'code': 200}-{'code': 200, 'message': '成功', 'data': {'isBind': True, 'token': 'M2YyYjhjZDItZDFkNC00ODBhLTg4ZDktMGRjNWQ5Y2RmZWQx'}}

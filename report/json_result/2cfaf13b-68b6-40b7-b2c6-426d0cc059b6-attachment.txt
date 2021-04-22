@@ -1,3 +1,0 @@
-INFO     接口测试:test_case_team_pupilcontribution.py:22 正在进行断言...
-INFO     接口测试:RequestsHandler.py:42 正在向http://sea-service.test.lcd.cool/v1/team/pupil/contribution发送请求,{'case_num': 'lcd_007', 'title ': '等价类测试：异常令牌', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/contribution', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"3312","platformCode":"8000"}', 'except': '{"message": "请登录","code": 403}'}
-INFO     接口测试:test_case_team_pupilcontribution.py:33 完成断言,{'message': '请登录', 'code': 403}-{'message': '请登录', 'code': 403}

@@ -1,3 +1,0 @@
-INFO     接口测试:test_case_team_pupil_list.py:22 正在进行断言...
-INFO     接口测试:RequestsHandler.py:42 正在向http://sea-service.test.lcd.cool/v1/team/pupil/list发送请求,{'case_num': 'lcd_021', 'title ': '等价类测试：异常phone', 'url': 'http://sea-service.test.lcd.cool/v1/team/pupil/list', 'method': 'get', 'params': '{"pupilId":33,"type":"cc","phone":66100280714,"page":2,"size":30}', 'data': '', 'json': '', 'cookies': '', 'headers': '{"Authorization":"${lcd_001>response_json>data.token}$","platformCode":"8000"}', 'except': '{"message": "请登录","code": 403}'}
-INFO     接口测试:test_case_team_pupil_list.py:33 完成断言,{'message': '请登录', 'code': 403}-{'message': '请登录', 'code': 403}
